@@ -1,4 +1,4 @@
-/////////////// SPLIT
+/////////////// SPLIT ///////////////
 
 console.log("JavaScript string split metod razdvaja string u niz".split(" "));
 // ['JavaScript', 'string', 'split', 'metod', 'razdvaja', 'string', 'u', 'niz' ]
