@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script 3</title>
+</head>
+
+<body>
+    <button id="prikaz">Prikazi poruku</button>
+    <button id="skloni">Skloni poruku</button>
+    <p style="display: none;">Ovo je poruka koja se prikazuje na jedan klik na dugme</p>
+
+    <script>
+        var p = document.querySelector('p');
+        var prikaz = document.querySelector('#prikaz');
+        var skloni = document.querySelector('#skloni');
+        prikaz.addEventListener('click', function() {
+            p.style.display = "block";
+        });
+        skloni.addEventListener('click', function() {
+            p.style.display = "none";
+        });
+    </script>
+</body>
+
+</html>
