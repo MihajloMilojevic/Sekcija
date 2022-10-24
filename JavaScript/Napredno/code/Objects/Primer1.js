@@ -47,7 +47,7 @@ console.log(obj);
 var obj = {
 	ime: "Mihajlo",
 	prezime: "Milojevic",
-	mejl: "milojevicm374@gmail.com",
+	mejl: "milojevicm374@gmail.com"
 }
 console.log(obj.hasOwnProperty("ime"));
 // true
