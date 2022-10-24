@@ -1,0 +1,18 @@
+1. Sta je JS?
+2. Razlika izmedju klijenta i servera
+3. Kako se povezuje skripta
+4. Alert i log
+5. Sintaksa, komentari, promenljive
+6. == i ===
+7. tipovi podataka
+8. funkcije
+9. objekti
+10. datumi
+11. nizovi
+12. math
+13. random
+14. ciklusi
+15. regex osnove
+16. dom - osnove, getElementById, querySelector, tag, klas
+17. izmena elemenata (innerText, HTML, style)
+18. dogadjaji nad HTML elemenentima i addEventListener
