@@ -1,0 +1,30 @@
+{
+	"naziv": "ESTS Nikola Tesla",
+	"adresa": "Dositejeva 8",
+	"telefon": "036123456",
+	"odeljenja": [
+		{
+			"razred": 4,
+			"index": 3,
+			"oznaka": "4/3",
+			"razredni": "Miroljub Senicic",
+			"ucenici": [
+				{
+					"ime": "Mihajlo",
+					"prezime": "Milojevic",
+					"datumRodjenja": "31.05.2004."
+				},
+				{
+					"ime": "Vojin",
+					"prezime": "Sundovic",
+					"datumRodjenja": "25.01.2005."
+				},
+				{
+					"ime": "Nikola",
+					"prezime": "Rogonjic",
+					"datumRodjenja": "10.09.2004."
+				}
+			]
+		}
+	]
+}
