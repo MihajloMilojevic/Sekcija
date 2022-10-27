@@ -7,14 +7,17 @@ class Tacka {
         this.#y = y;
         Tacka.brojInsanci++;
     }
-    print() {
-        console.log(`(${this.#x}, ${this.#y})`)
+    #toString() {
+        return `(${this.#x}, ${this.#y})`;
     }
-    getX() { return this.#x; }
-    setX(x) { this.#x = x; }
+    print() {
+        console.log(this.#toString());
+    }
+    get X() { return this.#x; }
+    set X(x) { this.#x = x; }
     
-    getY() { return this.#y; }
-    setY(y) { this.#y = y; }
+    get Y() { return this.#y; }
+    set Y(y) { this.#y = y; }
 
     static status() {
         console.log("Broj instanci " + Tacka.brojInsanci);
@@ -22,7 +25,6 @@ class Tacka {
 }
 
 const t1 = new Tacka(1, 2);
-console.log(t1.getX());
-t1.setX(10);
-console.log(t1.getX());
-t1.x = 0; // greška
+console.log(t1.X);
+t1.X = 10;
+console.log(t1.X);
