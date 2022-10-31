@@ -1,0 +1,1 @@
+Iz fajla je iščitano: Hello World from Node.js

@@ -1,0 +1,5 @@
+Iz fajla je iščitano: Hello World from Node.js
+Iz fajla je iščitano: Hello World from Node.js
+Iz fajla je iščitano: Hello World from Node.js
+Iz fajla je iščitano: Hello World from Node.js
+Iz fajla je iščitano: Hello World from Node.js
