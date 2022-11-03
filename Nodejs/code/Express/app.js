@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const {StatusCodes} = require("http-status-codes");
 const userRouter = require("./routers/users");
@@ -14,4 +15,5 @@ server.use(express.json());
 
 server.use("/api/users", userRouter)
 
-server.listen(5000, () => console.log(`Server sluša na portu 5000...`))
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => console.log(`Server sluša na portu ${PORT}...`))
