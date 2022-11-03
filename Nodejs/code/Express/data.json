@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Ardyth",
+    "last_name": "Cristofor",
+    "email": "acristofor0@foxnews.com",
+    "gender": "Female",
+    "ip_address": "196.91.91.12"
+  },
+  {
+    "id": 2,
+    "first_name": "Garwin",
+    "last_name": "Guyot",
+    "email": "gguyot1@cdbaby.com",
+    "gender": "Male",
+    "ip_address": "146.216.138.96"
+  },
+  {
+    "id": 3,
+    "first_name": "Dion",
+    "last_name": "Butten",
+    "email": "dbutten2@unblog.fr",
+    "gender": "Female",
+    "ip_address": "150.91.165.177"
+  },
+  {
+    "id": 4,
+    "first_name": "Bibbye",
+    "last_name": "Foggo",
+    "email": "bfoggo3@admin.ch",
+    "gender": "Genderqueer",
+    "ip_address": "251.160.125.213"
+  },
+  {
+    "id": 5,
+    "first_name": "Marve",
+    "last_name": "Yoxall",
+    "email": "myoxall4@bravesites.com",
+    "gender": "Male",
+    "ip_address": "190.131.26.244"
+  },
+  {
+    "id": 6,
+    "first_name": "Waverly",
+    "last_name": "Blackaller",
+    "email": "wblackaller5@wsj.com",
+    "gender": "Male",
+    "ip_address": "59.144.130.246"
+  },
+  {
+    "id": 7,
+    "first_name": "Poul",
+    "last_name": "Leist",
+    "email": "pleist6@ca.gov",
+    "gender": "Male",
+    "ip_address": "82.91.98.179"
+  },
+  {
+    "id": 8,
+    "first_name": "Kylila",
+    "last_name": "Apperley",
+    "email": "kapperley7@cpanel.net",
+    "gender": "Female",
+    "ip_address": "26.197.4.217"
+  },
+  {
+    "id": 9,
+    "first_name": "Nelli",
+    "last_name": "Andreasen",
+    "email": "nandreasen8@ifeng.com",
+    "gender": "Female",
+    "ip_address": "72.179.218.229"
+  },
+  {
+    "id": 10,
+    "first_name": "Dael",
+    "last_name": "Castagne",
+    "email": "dcastagne9@mail.ru",
+    "gender": "Female",
+    "ip_address": "127.105.186.64"
+  }
+]
