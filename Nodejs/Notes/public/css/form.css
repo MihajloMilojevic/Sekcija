@@ -17,7 +17,7 @@ label {
 	font-size: 1.25rem;
 }
 
-input {
+input, textarea {
 	margin-block: 10px;
 	width: 100%;
 	padding: 12px 20px;
@@ -25,7 +25,14 @@ input {
 	background-color: white !important;
 	outline: none;
 	border: none;
+	font-size: 1.25rem;
 }
+
+textarea {
+	resize: vertical;
+	min-height: 150px;
+}
+
 button {
 	font-size: 1.25rem;
 	margin-block: 10px;
