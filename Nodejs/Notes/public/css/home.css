@@ -1,0 +1,44 @@
+main {
+	margin: 1rem;
+	padding: 1.5rem;
+}
+
+.add-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+#add {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	border: none;
+	border-radius: 50%;
+	background-color: white;
+	padding: 12px;
+	width: 65px;
+	height: 65px;
+}
+#add > * {
+	font-size: 55px;
+	color: black;
+}
+
+#notes-list {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 500px) {
+	main {
+		margin: 0.75rem 0.5rem;
+		padding: 0.5rem;
+	}
+}
