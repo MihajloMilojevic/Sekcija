@@ -12,6 +12,7 @@ function Nav() {
 			<Link to='todo'>ToDo</Link>
 			<Link to='form'>Form</Link>
 			<Link to='hooks/test'>Hooks</Link>
+			<Link to='loading'>Context</Link>
 			<Link to='something'>404</Link>
 		</nav>
 	)
