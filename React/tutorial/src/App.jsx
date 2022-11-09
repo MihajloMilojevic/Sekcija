@@ -1,53 +1,66 @@
 import React from 'react'
-import Counter from './Counter';
-import CustomButton from './CustomButton';
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route
+} from "react-router-dom";
+import Buttons from './pages/Buttons';
+import Counters from './pages/Counters';
+import List from "./pages/List";
+import ToDo from './pages/ToDo';
+import FormWithLotsOfFields from "./pages/FormWithLotsOfFields"
+import Hooks from './pages/Hooks';
 
-const list = [
-	"List Item 1",
-	"List Item 2",
-	"List Item 3",
-	"List Item 4",
-	"List Item 5",
-	"List Item 6",
-	"List Item 7",
-	"List Item 8"
-];
+import Layout from './components/Layout';
+
+import "./styles.css"
 
 function App() {
-
-	function handleButtonClick() {
-		alert("handleButtonClick");
-	}
-
-	function returnOnClickFunction(num) {
-		console.warn("Ova funkcija je izvšena pre klika");
-		return e => {
-			alert(num);
-		}
-	}
-
 	return (
-		<>
-			<h1>Hello React from Functional Component</h1>
-			<CustomButton color="red" onClick={() => alert("Red clicked")}>Red</CustomButton>
-			<CustomButton color="green" onClick={e => console.log(e)}>Green</CustomButton>
-			<CustomButton color="blue" onClick={handleButtonClick}>Blue</CustomButton>
-			<CustomButton color="black" onClick={returnOnClickFunction(Math.PI)}>Black</CustomButton>
-			<Counter />
-			<Counter />
-			<Counter />
-			<Counter />
-			<ul>
-				{list.map((item, index) => <li key={index}>{item}</li>)}
-			</ul>
-		</>
+		<Router>
+			<Layout>
+				<Routes>
+					<Route 
+						exact path="/"
+						element={<h1>Home page</h1>}
+					/>
+					<Route 
+						exact path="/buttons"
+						element={<Buttons />}
+					/>
+					<Route 
+						exact path="/counters"
+						element={<Counters />}
+					/>
+					<Route 
+						exact path="/list"
+						element={<List />}
+					/>
+					<Route 
+						exact path="/todo"
+						element={<ToDo />}
+					/>
+					<Route 
+						exact path="/form"
+						element={<FormWithLotsOfFields />}
+					/>
+					<Route
+						exact path="/hooks/:text"
+						element={<Hooks />}
+					/>
+					<Route 
+						path="*"
+						element={
+							<div>
+								<h1>404 - Page does not exist</h1>
+								<a href='/'>Back to home</a>
+							</div>
+						}
+					/>
+				</Routes>
+			</Layout>
+		</Router>
 	)
 }
-
-// class App extends React.Component {
-// 	render() {
-// 		return <h1>Hello React from Class Component</h1>
-// 	}
-// }
 
 export default App;
