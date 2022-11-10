@@ -25,10 +25,14 @@ app.use(helmet()); // SECURITY
 app.use(cors()); // SECURITY
 app.use(xss()); // SECURITY
 app.use(cookieParser()); // ADDS COOKIES TO REQUEST
-app.use(express.static("public")) //USE ASSETS FROM PUBLIC FOLDER - FRONT END
+app.use(express.static("build")) //USE ASSETS FROM PUBLIC FOLDER - FRONT END
 
 app.use("/api/users", userRouter); // USES ROUTS FOR USER INTERACTION
 app.use("/api/notes", notesRouter); // USES ROUTS FOR MANIPULATION OF NOTES
+
+app.use(async (req, res, next) => {
+	res.redirect(`/?route=${req.path}`)
+})
 
 app.use(notFound); // IF NO ROUTE HAS BEEN FOUND
 app.use(errorHandler); // HANDLE ALL ERRORS THAT MAY OCCUR

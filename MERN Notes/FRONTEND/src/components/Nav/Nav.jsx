@@ -29,7 +29,7 @@ function Nav() {
 
 	return (
 		<nav className="nav">
-			<p><Link href="/" className="nav-brand">Notes</Link></p>
+			<p><Link to="." className="nav-brand">Notes</Link></p>
 			<div className="user-data">
 				<p id="hello">Hello, {user?.firstName}</p>
 				<button id="logout" onClick={logout}>Logout</button>
