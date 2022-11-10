@@ -1,0 +1,27 @@
+
+
+.add-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+#add {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	border: none;
+	border-radius: 50%;
+	background-color: white;
+	padding: 12px;
+	width: 65px;
+	height: 65px;
+}
+#add > * {
+	font-size: 55px;
+	color: black;
+}

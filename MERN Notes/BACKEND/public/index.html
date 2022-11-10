@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,200" />
+	<link rel="stylesheet" href="./css/globals.css">
+	<link rel="stylesheet" href="./css/home.css">
+	<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Notes</title>
+  </head>
+
+  <body class="gradient-background">
+	<div class="loader-wrapper gradient-background"><span class="loader"></span></div>
+	<nav>
+		<p><a href="/" class="nav-brand">Home Page</a></p>
+		<div class="user-data">
+			<p id="hello"></p>
+			<button id="logout">Logout</button>
+		</div>
+	</nav>
+
+	<main>
+		<section class="add-wrapper">
+			<a id="add" href="./add.html"> <span class="material-symbols-rounded">add</span></a>
+		</section>
+		<section>
+			<p>Your notes:</p>
+			<div id="notes-list">
+
+			</div>
+		</section>
+	</main>
+
+	<script src="./js/home.js" type="module"></script>
+	<script src="./js/logout.js"></script>
+  </body>
+</html>

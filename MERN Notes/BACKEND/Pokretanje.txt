@@ -1,0 +1,14 @@
+1. Otvoriti terminal
+2. Pokrenutni naredbu npm install
+3. Otvoriti XAMPP control panel
+4. Pokrenuti Apache i MySQL
+5. Otvoriti http://localhost/phpMyAdmin/
+6. Otići na tab IMPORT
+7. Kliknutni na odaberi fajl
+8. Naći fajl create.sql iz foldera database
+9. Kliknutni dugme GO da se pokrene skripta
+10. Kreirati fajl .env
+11. Podesiti HOST, USER, PASSWORD, DATABASE, JWT_SECRET promenljive (može se i kopirati .env.example)
+12. Pokrenuti npm start (ili npm run dev)
+13. Otvoriti http://localhost:5000
+14. Testirati aplikaciju

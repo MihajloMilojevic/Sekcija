@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/globals.css">
+	<link rel="stylesheet" href="./css/form.css">
+	<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+	<title>Create Note</title>
+</head>
+
+<body class="gradient-background">
+	<div class="loader-wrapper gradient-background"><span class="loader"></span></div>
+	<div class="container">
+		<p id="error-message"></p>
+		<form id="form">
+			<label for="title">Title: </label> <br>
+			<input type="text" id="title" /> <br>
+			<label for="password">Text:</label> <br>
+			<textarea id="text"></textarea> <br>
+			<button type="submit">Create</button>
+		</form>
+	</div>
+	<script src="./js/add.js" type="module"></script>
+</body>
+
+</html>

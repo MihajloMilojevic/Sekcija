@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/globals.css">
+	<link rel="stylesheet" href="./css/form.css">
+	<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+	<title>Login</title>
+</head>
+
+<body class="gradient-background">
+	<div class="loader-wrapper gradient-background"><span class="loader"></span></div>
+	<div class="container">
+		<p id="error-message"></p>
+		<form id="form">
+			<label for="email">Email: </label> <br>
+			<input type="text" id="email" /> <br>
+			<label for="password">Password:</label> <br>
+			<input type="password" id="password" /> <br>
+			<button type="submit">Log in</button>
+		</form>
+		<p>Don't have an account? Create one <a href="./register.html">here</a>.</p>
+	</div>
+	<script src="./js/login.js" type="module"></script>
+</body>
+
+</html>
