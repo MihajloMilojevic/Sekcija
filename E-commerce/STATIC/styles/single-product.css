@@ -1,0 +1,18 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+}
+
+.product-image {
+    flex: 1;
+}
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-info {
+    flex: 2;
+}

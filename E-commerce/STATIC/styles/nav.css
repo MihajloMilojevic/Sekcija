@@ -1,0 +1,25 @@
+#nav {
+    width: 100vw;
+    background: rgb(52, 52, 52);
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+#nav ul li {
+    display: inline;
+}
